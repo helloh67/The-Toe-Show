@@ -1,2 +1,3 @@
 #!/bin/bash
-python3 /home/pi/mu_code/Saves/TheToeShow.py
+python3 /directory/to/TheToeShow.py
+# Change the directory & name as needed also add the .py extension to file.
