@@ -1,3 +1,4 @@
+import time
 print("Welcome to The Toe Show! At The Toe Show!, you must name the toe. Name all 5 toes. Each toe is worth 1 point, so get it right to get that point! Will you name every toe correctly? Win to find out!")
 Toes = ["Phoe", "Poe", "Bad Moe", "Ringey", "Poey"]
 score = 0
@@ -67,3 +68,5 @@ for cur in Toes:
                 else:
                     print("Why?")
     print(f"You got {score}/5 points! Come again for more toe-tastic fun!")
+    time.sleep(5)
+    print("Bye!")
